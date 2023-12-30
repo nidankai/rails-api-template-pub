@@ -6,5 +6,5 @@
     - /config/credentials/*
 - credentials再発行
   ```sh
-  bin/rails credentials:edit
+  docker compose run web bin/rails credentials:edit
   ```
